@@ -1,9 +1,9 @@
 /*
 Asignación 1: Binary Digit
-Nombre: Ryan Rolon Rosa
+Nombre: Ryan Rolón Rosa
 Núm. Est: 801-24-1373
 Colaboraciones: 
-- Lillian Gonzalez,
+- Lillian González,
 - página web: [https://github.com/CCOM3033-002/lab1-ryanrolon0]
 */
 
@@ -13,7 +13,7 @@ Colaboraciones:
 using namespace std;
 
 int main() {
-    // Despliega el proposito del programa
+    // Despliega el propósito del programa
     cout << "This program calculates the Gross and Net Box Office Profit and the Distributer's Profit of a movie playing in the theater." << endl << endl;
     
     // Las variables del programa
@@ -39,7 +39,7 @@ int main() {
     double net_profit = gross_profit * 0.2;
     double distributor_profit = gross_profit - net_profit;
 
-    // Se despliega la informacion
+    // Se despliega la información
     cout << left << setw(29) << "\nMovie Name:" << "\"" << movie_name << "\"" << endl;
 
     cout << left << setw(30) << "Adult Tickets Sold:" << adult_tickets << endl;
